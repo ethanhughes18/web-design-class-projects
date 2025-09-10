@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(218, 116, 116);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: rgb(80, 80, 230);
+    text-decoration: none;
+}
+
+#container {
+    width: 65%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(240, 10, 10);
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 4px solid black;
+}
+
+header h1 {
+    font-size: 50px;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block
+}
+
+nav li a {
+    display:block;
+    background-color: rgb(57, 19, 19);
+    color: white;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+nav li a:hover {
+    background-color: rgb(100, 34, 34);
+    color: yellow;
+    border: 2px solid yellow;
+}
+
+main h2 {
+    text-align: center;
+    color: white;
+}
+
+.multi_col {
+    display: flex;
+}
+
+section, aside {
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 25%;
+}
+
+section img {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 75%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid black;
+    font-size: 20px;
+    color: white;
+}
