@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Atlanta Falcons</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/28-3_poster.jpeg" alt="28-3">
+        <h1>Atlanta Falcons Contact Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Content.html">Content</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <span class="logo">Mercedes Benz Stadium</span>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+    </nav>
+    <main>
+        <h2>Contact the Atlanta Falcons</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 1 AMB Drive NW, Atlanta, GA 30313</p>
+            <p><strong>Phone:</strong> (470) 341-5000</p>
+            <p><strong>Email:</strong> <a href="mailto:info@atlantafalcons.com">info@atlantafalcons.com</a></p>
+        </div>
+    </main>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navUl = document.querySelector('nav ul');
+        menuToggle.addEventListener('click', () => {
+            navUl.classList.toggle('active');
+        });
+    </script>
+    <footer>
+        &copy; 2024 Atlanta Falcons. All rights reserved.
+    </footer>
+</body>
+</html>
